@@ -22,13 +22,6 @@ class Persona():
     def verGenero(self):
         return self.__genero
     
-    #deleters
-    def borrarNombre(self):
-        del self.__nombre
-    def borrarCedula(self):
-        del self.__cedula
-    def borrarGenero(self):
-        del self.__genero
         
 # Métodos adicionales segun la abstracción hecha 
     def caminar(self):        
